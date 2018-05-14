@@ -5,6 +5,7 @@
 
 class Matrix {
 
+public:
 	//local variables
 	int rows;
 	int cols;
@@ -13,7 +14,7 @@ class Matrix {
 	//activation function
 	float sigmoid(float x);
 	double GaussRandom();
-public:
+
 	Matrix(int r, int c); //rows, colums
 
 	//i dont use it..

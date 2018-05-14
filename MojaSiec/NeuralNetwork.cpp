@@ -36,3 +36,8 @@ Matrix ** const NeuralNetwork::GetLayersPointers() const
 {
 	return layersPointers;
 }
+
+void NeuralNetwork::ProcessBoard(const Board * board, float * probabiltiesVector, float * winningChances) const
+{
+	ProcessInputVector(convertBoardToVector(board), probabiltiesVector, winningChances);
+}

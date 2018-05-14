@@ -3,9 +3,8 @@
 #include "Board.h"
 class Player
 {
-	NeuralNetwork brain;
-	virtual Matrix InterpretBoardToCreateInputVector(Board& board)=0;
-	typeOfField sign;
+	NeuralNetwork* neuralNetwork;
+	Tree* tree;
 public:
 	Player(int numberOfLayers, int* numberOfRows, int* numberOfColumns) :brain(numberOfLayers, numberOfRows, numberOfColumns), sign(cross) {};
 	virtual ~Player() {};

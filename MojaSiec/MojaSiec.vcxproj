@@ -121,6 +121,7 @@
     <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="NeuralNetwork.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Tree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Board.h" />
@@ -128,6 +129,7 @@
     <ClInclude Include="Matrix.h" />
     <ClInclude Include="NeuralNetwork.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
